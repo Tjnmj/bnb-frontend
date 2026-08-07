@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { StaffUser, createStaffUser, getStaffUsers } from "@/lib/api";
-import Modal from "@/components/modal";
+import Modal from "@/components/Modal";
 import { Plus, User } from "lucide-react";
 
 export default function UsersPage() {
